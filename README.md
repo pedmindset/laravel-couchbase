@@ -26,7 +26,7 @@ Make sure you have the Couchbase PHP driver installed. You can find installation
 Installation using composer:
 
 ```
-composer require mpociot/couchbase
+composer require pedmindset/couchbase
 ```
 
 And add the service provider in `config/app.php`:
