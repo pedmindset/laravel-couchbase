@@ -1,5 +1,7 @@
 <?php declare(strict_types=1);
 
+namespace Mpociot\Couchbase;
+
 use Illuminate\Support\ServiceProvider;
 use Mpociot\Couchbase\Eloquent\Model;
 use Mpociot\Couchbase\Connection as CouchbaseConnection;
