@@ -13,7 +13,7 @@ use Illuminate\Support\Str;
 
 abstract class Model extends BaseModel
 {
-    use HybridRelations;
+    use HybridRelations, Concerns\HasGlobalScopes;
 
     /**
      * The collection associated with the model.
